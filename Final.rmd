@@ -28,6 +28,14 @@ $H_0$: No difference in the effectiveness of the Covid 19 vaccine in the various
 
 $H_A$: There is a difference in the effectiveness of the Covid 19 vaccine in the various gender subgroups.
 
+## Method 
+The Cat~Cat helper file is used for the various gender subgroups:  
+Males/categorical  
+Females/categorical  
+LGBTQ/categorical  
+Druggies/categorical  
+
+  
 ## Males
 
 
