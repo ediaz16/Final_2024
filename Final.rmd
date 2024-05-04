@@ -35,18 +35,52 @@ Females/categorical
 LGBTQ/categorical  
 Druggies/categorical  
 
-  
-## Males
+
 
 
 ## Females
+##Graphical Descriptive Results
+
+```{r}
+dataF=filter(FinalData,sex=="F")
+barchartGC(~infected+treatment,data=dataF)
+```
+
+```{r}
+barchartGC(~infected+treatment,data=dataF,type="percent")
+```
 
 
-## LGBTQ
+The barchart shows the females with Covid 19 and recieved the vaccine had less symtoms than the females with the placebo. The females that did not have covid19 shows no difference in those that had been vaccinated and not vaccinated.
+
+##Numerical Results
+
+```{r}
+table1<-xtabs(~infected+treatment,data=dataF)
+rowPerc(table1)
+```
+
+```{r}
+colPerc(table1)
+```
 
 
+This table shows the vaccine has a lower infected rate than the placebo. For the females with covid 19 and vaccinated shows a better treatment outcome.For the females unvaccinated it shows a 60% with symptoms and 40% of females had symptoms that had been vaccinated. 
 
-## Druggies
 
+##Inferential Results
+
+```{r}
+chisq.test(table1)
+```
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The fisher test shows the p- value is 0.002162. 
 
 # Overall Results and Conclusions
+
