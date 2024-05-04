@@ -84,3 +84,4 @@ The fisher test shows the p- value is 0.002162.
 
 # Overall Results and Conclusions
 
+In conclusion we reject the $H_0$: No difference in the effectiveness of the Covid 19 vaccine in the various gender subgroups.The barchart shows the females with Covid 19 and recieved the vaccine had less symtoms than the females with the placebo. The females that did not have covid19 shows no difference in those that had been vaccinated and not vaccinated. The vaccine has a lower infected rate than the placebo. For the females with covid 19 and vaccinated shows a better treatment outcome.For the females unvaccinated it shows a 60% with symptoms and 40% of females had symptoms that had been vaccinated. 
